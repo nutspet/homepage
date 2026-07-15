@@ -1,0 +1,16 @@
+{
+  "name": "ai-nutspet-static-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 801",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 801"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "vite": "^8.1.4",
+    "vue": "^3.5.17"
+  }
+}
